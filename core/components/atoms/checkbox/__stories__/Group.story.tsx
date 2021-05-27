@@ -13,12 +13,24 @@ export const CheckboxGroup = () => (
     <Checkbox
       label="Obesity"
       defaultChecked={true}
+<<<<<<< HEAD
     />
     <Checkbox
       label="Patient has language barriers"
     />
     <Checkbox
       label="Mental and behavioral health conditions"
+=======
+      className="mt-5"
+    />
+    <Checkbox
+      label="Patient has language barriers"
+      className="mt-5"
+    />
+    <Checkbox
+      label="Mental and behavioral health conditions"
+      className="mt-5"
+>>>>>>> develop
     />
   </div>
 );

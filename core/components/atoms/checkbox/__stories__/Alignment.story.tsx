@@ -17,6 +17,10 @@ export const AlignmentOfCheckboxGroup = () => (
                 key={index}
                 label={day}
                 defaultChecked={index < 2}
+<<<<<<< HEAD
+=======
+                className={index !== 0 ? 'mt-4' : ''}
+>>>>>>> develop
               />
             );
           })
@@ -36,7 +40,11 @@ export const AlignmentOfCheckboxGroup = () => (
             days.map((day, index) => {
               return (
                 <Checkbox
+<<<<<<< HEAD
                   className="ml-7"
+=======
+                  className={index !== 0 ? 'ml-7' : ''}
+>>>>>>> develop
                   key={index}
                   label={day}
                   defaultChecked={index < 2}
